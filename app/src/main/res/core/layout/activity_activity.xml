@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/spacing_16">
+
+    <ImageView
+        android:id="@+id/view_shared_element"
+        android:layout_width="@dimen/size_40"
+        android:layout_height="@dimen/size_40"
+        android:src="@drawable/avatar_round"
+        android:transitionName="@string/activity_shared_element" />
+
+    <TextView
+        android:id="@+id/tv_about_activity"
+        style="@style/TextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_start_activity_cls"
+        style="@style/WideBtnStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_start_activity_cls" />
+
+    <Button
+        android:id="@+id/btn_start_activity_cls_opt"
+        style="@style/WideBtnStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_start_activity_cls_opt" />
+
+    <Button
+        android:id="@+id/btn_start_activity_cls_anim"
+        style="@style/WideBtnStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_start_activity_cls_anim" />
+
+    <Button
+        android:id="@+id/btn_shared_element"
+        style="@style/WideBtnStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_start_shared_element_activity" />
+
+    <Button
+        android:id="@+id/btn_start_home_activity"
+        style="@style/WideBtnStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_start_home_activity" />
+
+    <Button
+        android:id="@+id/btn_finish_all_activity"
+        style="@style/WideBtnStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_finish_all_activity" />
+
+</LinearLayout>
